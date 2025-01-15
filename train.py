@@ -10,7 +10,7 @@ from ultralytics import YOLO
 
 # Load the pretrained model weight completely
 # equvalet to YOLO("yolo11n-seg.yaml").load("yolo11n-seg.pt") in sense 
-model = YOLO('yolo11n-seg.pt')  #is best # or any other YOLO segmentation model
+model = YOLO('yolo11n.pt')  #is best # or any other YOLO segmentation model
 
 
 # Load a dataset for fine tune or training
